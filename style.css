@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-weight: lighter;
+}
+
+#Title{
+	text-align: center;
+	font-size: 60px
+}
+h2{
+	text-align: center;
+	font-style: italic;
+	font-size: 36px
+}
+#ActualBody{
+	border: 2px solid black;
+}
+
+.Column{
+	padding: 5px;
+	border: 2px solid black;
+}
+
+
+#TopHalf{
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+}
+
+.ImgColumn{
+	width: 50%;
+}
+
+.LeftColumn{
+	width: 25%;
+}
+
+.RightColumn{
+	width:25%;
+}
+
+.great{
+	width:100%;
+}
