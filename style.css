@@ -1,45 +1,90 @@
-* {
-  box-sizing: border-box;
-  font-weight: lighter;
+.title{
+	font-size:60px;
+	text-align: center;
+	font-weight: lighter;
+	margin-top: 58px;
 }
 
-#Title{
-	text-align: center;
-	font-size: 60px
-}
-h2{
-	text-align: center;
-	font-style: italic;
-	font-size: 36px
-}
-#ActualBody{
-	border: 2px solid black;
+
+.actualBody{
+	border: solid 2px black;
 }
 
-.Column{
+.column{
+	border: solid .5px black;
 	padding: 5px;
-	border: 2px solid black;
 }
 
 
-#TopHalf{
+.topHalf{
 	display: flex;
-	align-items: stretch;
-	width: 100%;
 }
 
-.ImgColumn{
-	width: 50%;
-}
 
-.LeftColumn{
+.leftC{
+	order: 1;
 	width: 25%;
 }
 
-.RightColumn{
-	width:25%;
+.mainC{
+	order: 2;
+	width: 50%;
 }
 
-.great{
-	width:100%;
+
+.rightC{
+	order: 3;
+	width: 25%;
 }
+
+.ceoImg{
+	width: 100%;
+}
+
+.bottomHalf{
+	display: flex;
+}
+
+
+.navBar{
+	order:2;
+	width: 75%;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	
+
+
+}
+
+.menuItem.mi1{
+	background-color: #5b6d7e;
+
+}
+.menuItem.mi2{
+	background-color: #6e8a84;
+}
+.menuItem.mi3{
+	background-color: #acb195;
+}
+.menuItem.mi4{
+	background-color: #6a66d7;
+}
+.menuItem.mi5{
+	background-color: #6e32aa;
+}
+
+.menuItem:hover{
+	text-decoration: underline;
+}
+
+
+
