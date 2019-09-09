@@ -50,14 +50,16 @@
 	order:2;
 	width: 75%;
 	flex-direction: column;
-	align-items: center;
-    justify-content: center;
+	
 }
 
 .menuItem{
+
 	width: 100%;
 	height: 20%;
-	text-align: center;
+	display: flex;
+	align-items: center;
+    justify-content: center;
 	font-size: 30px;
 	font-weight: bolder;
 	
